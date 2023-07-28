@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 150px);
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+  background-color: yellow;
+  color: #000;
+
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-form button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.navbar-right button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.navbar-right button:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.movie-results {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.movie-results h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movie-data {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.poster-image {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.movie-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.release-date {
+  font-size: 16px;
+}
+
+.imdb-rating {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: yellow; 
+  color: #000; 
+  padding: 10px; 
+}
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 30px; 
+  height: 30px;
+  margin: 0 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.social-icons a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.imdb-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.imdb-links a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+
